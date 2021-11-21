@@ -20,3 +20,27 @@
     background-size: cover;
     background-color: rgb(4, 155, 4);
 }
+
+.title{
+    font-size: 18px;
+}
+
+.subtitle1{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+
+.subtitle2{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+
+#score{
+    margin-left: 10px;
+}
+
+#time-left{
+    margin-left: 10px;
+}
