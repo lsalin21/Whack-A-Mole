@@ -40,7 +40,7 @@ function countDown(){
     currentTime--
     timeleft.textContent = currentTime
 
-    if(currentTime == 0){
+    if(currentTime === 0){
         clearInterval(countDownTimerId)
         clearInterval(timerId)
         alert('Game Over!Your final score is ' + result)
